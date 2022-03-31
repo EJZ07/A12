@@ -2,25 +2,41 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+	width: 800px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: auto;
+	margin-left: auto;
+	border-style: solid;
+  	border-width: 3px;
+	border-color: #931420;
+	background-color: #fffded;
+
 }
 
 a:hover{font-style: italic;}
 
 /* the styles for the header */
+header {
+	background: linear-gradient(30deg, #dda056 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	border-bottom: 3px solid #931420;
+	padding-top: 1.5em;
+}
+
 header h2 {
 	font-size: 170%;
 	color: #800000;
-	text-indent: 30px;
 }
 
 header h3 {
 	font-size: 130%;
 	font-style: italic;
-	text-indent: 30px;
 }
 
 header img {
 	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .shadow {
@@ -32,20 +48,86 @@ main {
 	clear: left;
 }
 
+main p {
+	padding-bottom: .5em;
+
+}
+
+main blockquote {
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+main ul {
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+}
+
+main li {
+	padding-bottom: .35em;
+}
+
 main h1 {
 	font-size: 150%;
+	padding-top: .5em;
 }
 
 main h2 {
+
+	padding-top: 0;
 	font-size: 130%;
 	color: #800000;
 }
 
 main h3 {
+	padding-bottom: .25em;
 	font-size: 105%;
 }
+/*
+img {
+	padding-bottom: 1em;
+
+}
+*/
+article img {
+	padding-bottom: 1em;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	border: black;
+
+}
+
+section {
+	width: 525px;
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+aside {
+	width: 215px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+article {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border-top: 2px solid #800000;
+	border-bottom: 2px solid #800000;
+
+}
 /* the styles for the footer */
+footer {
+	background-color: #931420;
+	clear: both;
+}
 
 footer p {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: white;
 	text-align: center;
 }
